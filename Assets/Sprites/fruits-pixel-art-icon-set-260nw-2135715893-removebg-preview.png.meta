@@ -1,0 +1,549 @@
+fileFormatVersion: 2
+guid: 8578a661c8e0a2446bc450b4361a608f
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: fruits-pixel-art-icon-set-260nw-2135715893-removebg-preview_0
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 201
+        width: 49
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 691b80017d71dd840962746680be6629
+      internalID: 1807946729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fruits-pixel-art-icon-set-260nw-2135715893-removebg-preview_1
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 201
+        width: 52
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05b195f2412930447aace5683b4bc86b
+      internalID: 1156944964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fruits-pixel-art-icon-set-260nw-2135715893-removebg-preview_2
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 201
+        width: 52
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ff0da1bfc75bd64c822af62cc13b1a3
+      internalID: 1371959743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fruits-pixel-art-icon-set-260nw-2135715893-removebg-preview_3
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 201
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b856a1b74b50c374b9fa1b60a713cd3f
+      internalID: 776335854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fruits-pixel-art-icon-set-260nw-2135715893-removebg-preview_4
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 201
+        width: 42
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e01d9d50ca402904b8671c36bad4e23d
+      internalID: 156888366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fruits-pixel-art-icon-set-260nw-2135715893-removebg-preview_5
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 201
+        width: 43
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b415cfe99c776f443a3b34208a247e10
+      internalID: 1135205793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fruits-pixel-art-icon-set-260nw-2135715893-removebg-preview_6
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 120
+        width: 42
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63a144e764fe9be4dbc282d39169316f
+      internalID: -1106224776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fruits-pixel-art-icon-set-260nw-2135715893-removebg-preview_7
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 120
+        width: 52
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f92ae01590d39a46b7d747f7fa033d6
+      internalID: 228625233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fruits-pixel-art-icon-set-260nw-2135715893-removebg-preview_8
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 120
+        width: 58
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3be679e0358e6d44aad56fbfed4b8bd9
+      internalID: -2017504232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fruits-pixel-art-icon-set-260nw-2135715893-removebg-preview_9
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 120
+        width: 49
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb9be3fdf1e6387479dc5affe6d5d270
+      internalID: 664610724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fruits-pixel-art-icon-set-260nw-2135715893-removebg-preview_10
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 120
+        width: 50
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 637f9c3b4aa2cf74d8f1c170b788468d
+      internalID: -1883613016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fruits-pixel-art-icon-set-260nw-2135715893-removebg-preview_11
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 120
+        width: 49
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e7a9f4af3bbc8241a2a8ceb9565fe79
+      internalID: -710007813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fruits-pixel-art-icon-set-260nw-2135715893-removebg-preview_12
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 42
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48155a0dbb3cf53429482437912b2697
+      internalID: -1023250684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fruits-pixel-art-icon-set-260nw-2135715893-removebg-preview_13
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 41
+        width: 49
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e93c64fb7e918df45ba785fcf66e7647
+      internalID: 862577943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fruits-pixel-art-icon-set-260nw-2135715893-removebg-preview_14
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 45
+        width: 43
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8e6e14deae9658409215d50274cacd2
+      internalID: 333027691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fruits-pixel-art-icon-set-260nw-2135715893-removebg-preview_15
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 40
+        width: 52
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56b8726bb11511343bcc88660ba65716
+      internalID: -2077008899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fruits-pixel-art-icon-set-260nw-2135715893-removebg-preview_16
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 42
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6046f174c52fb2746b01fba0a4aa2c20
+      internalID: -2107060506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fruits-pixel-art-icon-set-260nw-2135715893-removebg-preview_17
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 42
+        width: 46
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43fc2f51df2287f4d8d6dda60e54b600
+      internalID: -1756614392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 1537655665
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      fruits-pixel-art-icon-set-260nw-2135715893-removebg-preview_0: 1807946729
+      fruits-pixel-art-icon-set-260nw-2135715893-removebg-preview_1: 1156944964
+      fruits-pixel-art-icon-set-260nw-2135715893-removebg-preview_10: -1883613016
+      fruits-pixel-art-icon-set-260nw-2135715893-removebg-preview_11: -710007813
+      fruits-pixel-art-icon-set-260nw-2135715893-removebg-preview_12: -1023250684
+      fruits-pixel-art-icon-set-260nw-2135715893-removebg-preview_13: 862577943
+      fruits-pixel-art-icon-set-260nw-2135715893-removebg-preview_14: 333027691
+      fruits-pixel-art-icon-set-260nw-2135715893-removebg-preview_15: -2077008899
+      fruits-pixel-art-icon-set-260nw-2135715893-removebg-preview_16: -2107060506
+      fruits-pixel-art-icon-set-260nw-2135715893-removebg-preview_17: -1756614392
+      fruits-pixel-art-icon-set-260nw-2135715893-removebg-preview_2: 1371959743
+      fruits-pixel-art-icon-set-260nw-2135715893-removebg-preview_3: 776335854
+      fruits-pixel-art-icon-set-260nw-2135715893-removebg-preview_4: 156888366
+      fruits-pixel-art-icon-set-260nw-2135715893-removebg-preview_5: 1135205793
+      fruits-pixel-art-icon-set-260nw-2135715893-removebg-preview_6: -1106224776
+      fruits-pixel-art-icon-set-260nw-2135715893-removebg-preview_7: 228625233
+      fruits-pixel-art-icon-set-260nw-2135715893-removebg-preview_8: -2017504232
+      fruits-pixel-art-icon-set-260nw-2135715893-removebg-preview_9: 664610724
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
