@@ -7,7 +7,7 @@ public class GameManager : MonoBehaviour
     private void GameOver()
     {
         PositionTable.AddNewScore(5);
-        SceneManager.LoadScene("Resultados");
+        SceneManager.LoadScene("Win");
     }
     private void OnEnable()
     {
