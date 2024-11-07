@@ -1,13 +1,15 @@
 using UnityEngine;
-using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
     [SerializeField] private PositionTable PositionTable;
-    private void GameOver()
+    [SerializeField] private AudioSource audioSource;
+    private void GameOver(float time)
     {
-        PositionTable.AddNewScore(5);
-        SceneManager.LoadScene("Win");
+        if (time <= 10)
+        {
+            audioSource.pitch = 2.0f;
+        }
     }
     private void OnEnable()
     {
