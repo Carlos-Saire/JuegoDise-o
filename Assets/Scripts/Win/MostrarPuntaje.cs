@@ -1,5 +1,6 @@
 using TMPro;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 public class MostrarPuntaje : MonoBehaviour
 {
     [SerializeField] private TMP_Text[] textos;
@@ -16,5 +17,14 @@ public class MostrarPuntaje : MonoBehaviour
         {
             textos[i].text = (i + 1) + " :";
         }
+
+    }
+    public void Menu()
+    {
+        SceneManager.LoadScene("Menu");
+    }
+    public void Reiniciar()
+    {
+        SceneManager.LoadScene("Game");
     }
 }

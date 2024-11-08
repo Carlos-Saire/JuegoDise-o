@@ -1,5 +1,6 @@
 using UnityEngine;
 using System.Collections;
+using static FrutasController;
 public class Generador : MonoBehaviour
 {
     [Header("ObjetosBuenos")]
@@ -17,29 +18,53 @@ public class Generador : MonoBehaviour
     [SerializeField] private float xMax;
     private void Start()
     {
-        GeneradorObjectMalos();
         GeneradorObjectBuenos();
+        GeneradorObjectMalos();
     }
     private void GeneradorObjectMalos()
     {
         float randon = Random.Range(xmin, xMax);
         int randonObjectos = Random.Range(0, ObjectMalos.Length);
         Vector2 newPosition = new Vector2(randon, transform.position.y);
-        Instantiate(ObjectMalos[randonObjectos], transform.position, transform.rotation);
+        GameObject go=  Instantiate(ObjectMalos[randonObjectos], newPosition, transform.rotation);
+        FrutasController frutasController = go.GetComponent<FrutasController>();
+
+        FruitType randomFruitType = FruitType.Chocolate;
+
+        frutasController.SetFruitSprite(randomFruitType);
         StartCoroutine(TimeGenerarEnemigos());
     }
     private void GeneradorObjectBuenos()
     {
         float randon = Random.Range(xmin, xMax);
-        int randonObjectos = Random.Range(0, ObjectMalos.Length);
+        int randonObjectos = Random.Range(0, ObjectBuenos.Length);
         Vector2 newPosition = new Vector2(randon, transform.position.y);
-        Instantiate(ObjectBuenos[randonObjectos], transform.position, transform.rotation);
+
+        GameObject go = Instantiate(ObjectBuenos[randonObjectos], newPosition, transform.rotation);
+        FrutasController frutasController = go.GetComponent<FrutasController>();
+
+        FruitType randomFruitType;
+
+        int probability = Random.Range(0, 100);
+        if (probability < 30) 
+        {
+            randomFruitType = (Random.value > 0.5f) ? FruitType.Velocity : FruitType.Time;
+        }
+        else
+        {
+            do
+            {
+                randomFruitType = (FruitType)Random.Range(0, System.Enum.GetValues(typeof(FruitType)).Length);
+            } while (randomFruitType == FruitType.Chocolate || randomFruitType == FruitType.Velocity || randomFruitType == FruitType.Time);
+        }
+
+        frutasController.SetFruitSprite(randomFruitType);
         StartCoroutine(TimeGenerarBuenos());
     }
     private IEnumerator TimeGenerarEnemigos()
     {
         yield return new WaitForSeconds(timeGeneratorMalos);
-        if (TimeMinEnemigos <= timeGeneratorMalos)
+        if (TimeMinEnemigos < timeGeneratorMalos)
         {
             --timeGeneratorMalos;
         }
@@ -48,9 +73,9 @@ public class Generador : MonoBehaviour
     private IEnumerator TimeGenerarBuenos()
     {
         yield return new WaitForSeconds(timeGeneratorBuenos);
-        if (TimeMinBuenos <= timeGeneratorBuenos)
+        if (TimeMinBuenos < timeGeneratorBuenos)
         {
-            --timeGeneratorMalos;
+            --timeGeneratorBuenos;
         }
         GeneradorObjectBuenos();
     }

@@ -19,5 +19,9 @@ public class MenuController : MonoBehaviour
         Debug.Log("Saliste");
         Application.Quit();
     }
+    public void buttonAjutses()
+    {
+        AjusteController.instance.OpenAjustes();
+    }
 
 }

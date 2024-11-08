@@ -52,11 +52,13 @@ public class AjusteController : MonoBehaviour
     }
     public void OpenAjustes()
     {
-        instance.animator.SetTrigger("Open");
-
+        animator.ResetTrigger("Close");
+        animator.SetTrigger("Open");
     }
+
     public void CloseAjustes()
     {
-        instance.animator.SetTrigger("Close");
+        animator.ResetTrigger("Open");
+        animator.SetTrigger("Close");
     }
 }

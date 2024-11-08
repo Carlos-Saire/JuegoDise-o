@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
@@ -19,6 +20,8 @@ public class PlayerController : MonoBehaviour
 
     [Header("Sound")]
     [SerializeField] private AudioClipSO audioClipSO;
+
+    static public event Action<float> eventTime;
     private void Awake()
     {
         RB2D = GetComponent<Rigidbody2D>();
@@ -28,11 +31,10 @@ public class PlayerController : MonoBehaviour
     {
         currentX = Mathf.Clamp(transform.position.x, Xmin, XMax);
         transform.position = new Vector2(currentX, transform.position.y);
-        if (Input.GetKeyDown(KeyCode.Space))
-        {
-            particleSyste.Play();
-            audioClipSO.PlayOneShoot();
-        }
+    }
+    private void ActiveEventTime()
+    {
+        eventTime?.Invoke(10);
     }
     public void XDirection(InputAction.CallbackContext context)
     {
@@ -43,5 +45,24 @@ public class PlayerController : MonoBehaviour
     {
         RB2D.velocity = new Vector2(xdirection*speed, RB2D.velocity.y);
     }
-    
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.tag!="Malos")
+        {
+            particleSyste.Play();
+            audioClipSO.PlayOneShoot();
+            if (collision.CompareTag("Time"))
+            {
+                ActiveEventTime();
+                print("Time");
+            }
+            else if (collision.CompareTag("Velocity"))
+            {
+                speed += 1;
+                print("Velocity");
+
+            }
+        }
+    }
+
 }
